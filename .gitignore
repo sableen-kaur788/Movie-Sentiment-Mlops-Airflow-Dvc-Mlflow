@@ -30,7 +30,7 @@ docker-compose.override.yaml
 
 # DVC cache (local)
 .dvc/cache/
-
+/config
 
 # Ignore actual data and model files
 #data/*
