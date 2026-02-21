@@ -1,0 +1,17 @@
+data:
+  raw_path: "data/Review.csv"
+  cleaned_path: "data/cleaned.csv"
+  test_size: 0.2       # 20% test data
+  random_state: 42 
+preprocessing:
+  max_features: 5000
+  max_len: 100
+
+training:
+  embedding_dim: 128
+  lstm_units: 128
+  dropout: 0.1
+  batch_size: 16
+  epochs: 2
+  experiment_name: "Sentiment_Experiment"
+  registered_model_name: "sentiment_model"
