@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.venv/
+env/
+venv/
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Docker
+*.pid
+docker-compose.override.yaml
+
+# DVC cache (local)
+.dvc/cache/
+
+
+# Ignore actual data and model files
+#data/*
+#models/*
+
+# BUT keep DVC metafiles
+#!data/*.dvc
+#!models/*.dvc
+
+# Ignore actual data & models (DVC tracks them)
+#data/
+#models/
+/models
