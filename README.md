@@ -115,6 +115,11 @@ Then open:
 
 - http://127.0.0.1:5000/
 
+  <img width="830" height="590" alt="image" src="https://github.com/user-attachments/assets/13e2242f-e065-4539-b7f5-e9018905ce41" />
+
+  <img width="835" height="602" alt="image" src="https://github.com/user-attachments/assets/dddc28f0-614e-4605-b603-a4e563e8b1df" />
+
+
 ## Running with Airflow (Docker)
 
 Build and start services:
