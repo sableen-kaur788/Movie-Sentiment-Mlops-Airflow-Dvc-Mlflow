@@ -1,5 +1,7 @@
 # Sentiment Analysis MLOps Pipeline with Airflow, DVC, MLflow, and LSTM
 
+MLFlow : https://dagshub.com/sableen-kaur788/Movie-Sentiment-Mlops-Airflow-Dvc-Mlflow.mlflow
+
 An end-to-end MLOps project for movie review sentiment analysis using an LSTM model, orchestrated with Apache Airflow, tracked with MLflow (DagsHub), and versioned with DVC.
 
 ## What This Project Does
